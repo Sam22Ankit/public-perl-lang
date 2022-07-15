@@ -17,6 +17,8 @@ jobs:
         - "5.36"
         - "5.30"
       arch: amd64
+      script:
+        - perl hello_world.pl
     - dist: xenial
       virt: vm
       language: perl
@@ -25,6 +27,8 @@ jobs:
         - "5.28"
         - "5.26"
       arch: amd64
+      script:
+        - perl hello_world.pl
     - dist: xenial
       virt: lxd
       language: perl
@@ -33,6 +37,8 @@ jobs:
         - "5.28"
         - "5.26"
       arch: amd64
+      script:
+        - perl hello_world.pl
     - dist: bionic
       virt: lxd
       language: perl
@@ -41,6 +47,8 @@ jobs:
         - "5.28"
         - "5.26"
       arch: amd64
+      script:
+        - perl hello_world.pl
     - dist: bionic
       virt: vm
       language: perl
@@ -49,6 +57,8 @@ jobs:
         - "5.28"
         - "5.26"
       arch: amd64
+      script:
+        - perl hello_world.pl
     - dist: focal
       virt: lxd
       language: perl
@@ -57,6 +67,8 @@ jobs:
         - "5.28"
         - "5.26"
       arch: amd64
+      script:
+        - perl hello_world.pl
     - dist: xenial
       virt: vm
       language: perl
@@ -65,3 +77,5 @@ jobs:
         - "5.28"
         - "5.26"
       arch: amd64
+      script:
+        - perl hello_world.pl
