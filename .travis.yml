@@ -69,7 +69,7 @@ jobs:
       arch: amd64
       script:
         - perl hello_world.pl
-    - dist: xenial
+    - dist: focal
       virt: vm
       language: perl
       perl:
