@@ -1,18 +1,21 @@
-- dist: jammy
+os: linux
+jobs:
+  include:
+    - dist: jammy
       virt: lxd
       language: perl
       perl:
+        - "5.36"
         - "5.30"
-        - "5.28"
-        - "5.26"
       arch: amd64
+      script:
+        - perl hello_world.pl
     - dist: jammy
       virt: vm
       language: perl
       perl:
+        - "5.36"
         - "5.30"
-        - "5.28"
-        - "5.26"
       arch: amd64
     - dist: xenial
       virt: vm
