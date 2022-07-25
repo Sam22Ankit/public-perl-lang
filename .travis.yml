@@ -7,7 +7,7 @@ jobs:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
 #         - perlbrew install 5.36
-        - cpanm --cpanfile check.cpanfile
+        - cpanm --cpanfile check.cpanfile .
       language: perl
       perl:
         - "5.36"
@@ -21,7 +21,7 @@ jobs:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
 #         - perlbrew install 5.36
-        - cpanm --quiet
+        - cpanm --cpanfile check.cpanfile .
       language: perl
       perl:
         - "5.36"
@@ -35,7 +35,7 @@ jobs:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
 #         - perlbrew install 5.36
-        - cpanm --quiet
+        - cpanm --cpanfile check.cpanfile .
       language: perl
       perl:
         - "5.30"
@@ -50,7 +50,7 @@ jobs:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
 #         - perlbrew install 5.36
-        - cpanm --quiet
+        - cpanm --cpanfile check.cpanfile .
       language: perl
       perl:
         - "5.30"
@@ -65,7 +65,7 @@ jobs:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
 #         - perlbrew install 5.36
-        - cpanm --quiet
+        - cpanm --cpanfile check.cpanfile .
       language: perl
       perl:
         - "5.30"
@@ -80,7 +80,7 @@ jobs:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
 #         - perlbrew install 5.36
-        - cpanm --quiet
+        - cpanm --cpanfile check.cpanfile .
       language: perl
       perl:
         - "5.30"
@@ -95,7 +95,7 @@ jobs:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
 #         - perlbrew install 5.36
-        - cpanm --quiet
+        - cpanm --cpanfile check.cpanfile .
       language: perl
       perl:
         - "5.30"
@@ -110,7 +110,7 @@ jobs:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
 #         - perlbrew install 5.36
-        - cpanm --quiet
+        - cpanm --cpanfile check.cpanfile .
       language: perl
       perl:
         - "5.30"
