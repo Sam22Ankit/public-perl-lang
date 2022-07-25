@@ -3,6 +3,8 @@ jobs:
   include:
     - dist: jammy
       virt: lxd
+      install:
+        - apt-get install perl-CPAN
       language: perl
       perl:
         - "5.36"
