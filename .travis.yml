@@ -3,7 +3,8 @@ jobs:
   include:
     - dist: jammy
       virt: lxd
-      install: skip
+      install: 
+        - cpanm
       language: perl
       perl:
         - "5.36"
