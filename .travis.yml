@@ -3,8 +3,8 @@ jobs:
   include:
     - dist: jammy
       virt: lxd
-      install: 
-        - cpanm
+      before_install:
+        - sudo apt-get install -qq unixodbc unixodbc-dev
       language: perl
       perl:
         - "5.36"
