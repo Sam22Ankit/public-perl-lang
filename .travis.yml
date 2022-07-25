@@ -4,7 +4,7 @@ jobs:
     - dist: jammy
       virt: lxd
       install:
-        - apt-get install perl-CPAN
+        - cpanm --quiet --installdeps --notest
       language: perl
       perl:
         - "5.36"
