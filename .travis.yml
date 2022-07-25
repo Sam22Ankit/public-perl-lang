@@ -6,7 +6,6 @@ jobs:
       before_install:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
-#         - perlbrew install 5.36
         - cpanm --installdeps .
       language: perl
       perl:
@@ -20,7 +19,6 @@ jobs:
       before_install:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
-#         - perlbrew install 5.36
         - cpanm --installdeps .
       language: perl
       perl:
@@ -34,7 +32,6 @@ jobs:
       before_install:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
-#         - perlbrew install 5.36
         - cpanm --installdeps .
       language: perl
       perl:
@@ -49,7 +46,6 @@ jobs:
       before_install:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
-#         - perlbrew install 5.36
         - cpanm --installdeps .
       language: perl
       perl:
@@ -64,7 +60,6 @@ jobs:
       before_install:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
-#         - perlbrew install 5.36
         - cpanm --installdeps .
       language: perl
       perl:
@@ -79,7 +74,6 @@ jobs:
       before_install:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
-#         - perlbrew install 5.36
         - cpanm --installdeps .
       language: perl
       perl:
@@ -94,7 +88,6 @@ jobs:
       before_install:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
-#         - perlbrew install 5.36
         - cpanm --installdeps .
       language: perl
       perl:
@@ -109,7 +102,6 @@ jobs:
       before_install:
         - sudo apt-get install -qq unixodbc unixodbc-dev
       install:
-#         - perlbrew install 5.36
         - cpanm --installdeps .
       language: perl
       perl:
